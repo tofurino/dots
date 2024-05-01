@@ -1,0 +1,25 @@
+hide_ascii = false
+prefer_small_ascii = true
+separator = "=>"
+
+[bar]
+glyph = "■"
+symbol_open     = '['
+symbol_close    = ']'
+visible = false
+
+[box]
+title = "IZANAMI"
+border = "rounded"
+y = 5
+visible = true
+
+[custom_ascii]
+path = "~/.config/macchina/themes/ascii"
+
+[keys]
+cpu_load = "CPU %"
+
+[palette]
+glyph = "  ████"
+visible = true

@@ -1,0 +1,30 @@
+theme = "custom"
+# Displays only the specified readouts
+# Accepted values (case-sensitive):
+#   - Host
+#   - Machine
+#   - Kernel
+#   - Distribution
+#   - OperatingSystem
+#   - DesktopEnvironment
+#   - WindowManager
+#   - Resolution
+#   - Backlight
+#   - Packages
+#   - LocalIP
+#   - Terminal
+#   - Shell
+#   - Uptime
+#   - Processor
+#   - ProcessorLoad
+#   - Memory
+#   - Battery
+# Example:
+#  show = ["Battery", "Memory", ...]
+
+show = ["Host", "Kernel", "Distribution", "Shell", "Processor", "ProcessorLoad", "Memory"] 
+
+long_uptime = false
+long_shell = false
+long_kernel = false
+physical_cores = true
